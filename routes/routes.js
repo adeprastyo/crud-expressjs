@@ -40,7 +40,7 @@ router.get("/movie/:id", async (req, res) => {
   }
 });
 
-// PATCH /movie/update/Lid
+// PATCH /movie/update/:id
 router.patch("/movie/update/:id", async (req, res) => {
   try {
     const id = req.params.id;
